@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ahorcado</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body onload="word()">
+
+<header>
+    <div class="title-box">
+        <div class="title">
+            <h1>Ahorcado by Gabox</h1>
+        </div>
+    </div>
+
+    <div class="new-word">
+        <button type="button" onclick="reload()" >Nueva palabra</button>
+    </div>
+</header>
+
+<div class="word-container">
+    <div class="word-box">
+        <h2>
+            <span id="word"></span>
+        </h2>
+    </div>
+</div>
+
+<section class="main-container">
+    <div class="ahorcado-img">
+        <img id="img" src="img/ahorcado-0.png" alt="Ahorcado IMG">
+    </div>
+</section>
+
+<section class="main-containerr">
+    <div class="letters-box">
+        <div class="letters">
+            <button id="a" class="enable" type="button" onclick="letter('a')">A</button>
+            <button id="b" class="enable" type="button" onclick="letter('b')">B</button>
+            <button id="c" class="enable" type="button" onclick="letter('c')">C</button>
+            <button id="d" class="enable" type="button" onclick="letter('d')">D</button>
+            <button id="e" class="enable" type="button" onclick="letter('e')">E</button>
+            <button id="f" class="enable" type="button" onclick="letter('f')">F</button>
+            <button id="g" class="enable" type="button" onclick="letter('g')">G</button>
+            <button id="h" class="enable" type="button" onclick="letter('h')">H</button>
+            <button id="i" class="enable" type="button" onclick="letter('i')">I</button>
+            <button id="j" class="enable" type="button" onclick="letter('j')">J</button>
+            <button id="k" class="enable" type="button" onclick="letter('k')">K</button>
+            <button id="l" class="enable" type="button" onclick="letter('l')">L</button>
+            <button id="m" class="enable" type="button" onclick="letter('m')">M</button>
+            <button id="n" class="enable" type="button" onclick="letter('n')">N</button>
+            <button id="ñ" class="enable" type="button" onclick="letter('ñ')">Ñ</button>
+            <button id="o" class="enable" type="button" onclick="letter('o')">O</button>
+            <button id="p" class="enable" type="button" onclick="letter('p')">P</button>
+            <button id="q" class="enable" type="button" onclick="letter('q')">Q</button>
+            <button id="r" class="enable" type="button" onclick="letter('r')">R</button>
+            <button id="s" class="enable" type="button" onclick="letter('s')">S</button>
+            <button id="t" class="enable" type="button" onclick="letter('t')">T</button>
+            <button id="u" class="enable" type="button" onclick="letter('u')">U</button>
+            <button id="v" class="enable" type="button" onclick="letter('v')">V</button>
+            <button id="w" class="enable" type="button" onclick="letter('w')">W</button>
+            <button id="x" class="enable" type="button" onclick="letter('x')">X</button>
+            <button id="y" class="enable" type="button" onclick="letter('y')">Y</button>
+            <button id="z" class="enable" type="button" onclick="letter('z')">Z</button>
+        </div>
+    </div>
+
+
+</section>
+
+
+<script type="text/javascript" src="js/ahorcado.js">
+</script>
+
+</body>
+</html>
