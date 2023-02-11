@@ -65,37 +65,37 @@ function letter(letter){
             let img = document.querySelector("#img")
             switch (state) {
                 case 0:
-                    img.src = "img/Ahorcado-1.png"
+                    img.src = "img/ahorcado-1.png"
                     state = 1
                     botton.classList.add("incorrect")
                     break;
                 case 1:
-                    img.src = "img/Ahorcado-2.png"
+                    img.src = "img/ahorcado-2.png"
                     state = 2
                     botton.classList.add("incorrect")
                     break;
                 case 2:
-                    img.src = "img/Ahorcado-3.png"
+                    img.src = "img/ahorcado-3.png"
                     state = 3
                     botton.classList.add("incorrect")
                     break;
                 case 3:
-                    img.src = "img/Ahorcado-4.png"
+                    img.src = "img/ahorcado-4.png"
                     state = 4
                     botton.classList.add("incorrect")
                     break;
                 case 4:
-                    img.src = "img/Ahorcado-5.png"
+                    img.src = "img/ahorcado-5.png"
                     state = 5
                     botton.classList.add("incorrect")
                     break;
                 case 5:
-                    img.src = "img/Ahorcado-6.png"
+                    img.src = "img/ahorcado-6.png"
                     state = 6
                     botton.classList.add("incorrect")
                     break;
                 case 6:
-                    img.src = "img/Ahorcado-7.png"
+                    img.src = "img/ahorcado-7.png"
                     state = 7
                     botton.classList.add("incorrect")
                     break;
