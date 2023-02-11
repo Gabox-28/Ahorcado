@@ -95,7 +95,7 @@ function letter(letter){
                     botton.classList.add("incorrect")
                     break;
                 case 6:
-                    img.src = "img/ahorcado-7.png"
+                    img.src = "img/Ahorcado-7.png"
                     state = 7
                     botton.classList.add("incorrect")
                     break;
