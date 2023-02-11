@@ -8,10 +8,14 @@
     <link rel="stylesheet" href="css/game.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
 </head>
 <body onload="word()">
 
-<header>
+<!--<header>
     <div class="title-box">
         <div class="title">
             <h1>Ahorcado by Gabox</h1>
@@ -21,7 +25,11 @@
     <div class="new-word">
         <button type="button" onclick="reload()" >Nueva palabra</button>
     </div>
-</header>
+</header>-->
+
+<div class="new-word">
+    <button type="button" onclick="reload()" >Nueva palabra</button>
+</div>
 
 <div class="word-container">
     <div class="word-box">
@@ -31,48 +39,91 @@
     </div>
 </div>
 
-<section class="main-container">
-    <div class="ahorcado-img">
-        <img id="img" src="img/ahorcado-0.png" alt="Ahorcado IMG">
-    </div>
-</section>
+<div class="container">
+    <section class="main-container">
+        <div class="ahorcado-img">
+            <img id="img" src="img/Ahorcado-0.png" alt="Ahorcado IMG">
+        </div>
+    </section>
 
-<section class="main-containerr">
-    <div class="letters-box">
-        <div class="letters">
-            <button id="a" class="enable" type="button" onclick="letter('a')">A</button>
-            <button id="b" class="enable" type="button" onclick="letter('b')">B</button>
-            <button id="c" class="enable" type="button" onclick="letter('c')">C</button>
-            <button id="d" class="enable" type="button" onclick="letter('d')">D</button>
-            <button id="e" class="enable" type="button" onclick="letter('e')">E</button>
-            <button id="f" class="enable" type="button" onclick="letter('f')">F</button>
-            <button id="g" class="enable" type="button" onclick="letter('g')">G</button>
-            <button id="h" class="enable" type="button" onclick="letter('h')">H</button>
-            <button id="i" class="enable" type="button" onclick="letter('i')">I</button>
-            <button id="j" class="enable" type="button" onclick="letter('j')">J</button>
-            <button id="k" class="enable" type="button" onclick="letter('k')">K</button>
-            <button id="l" class="enable" type="button" onclick="letter('l')">L</button>
-            <button id="m" class="enable" type="button" onclick="letter('m')">M</button>
-            <button id="n" class="enable" type="button" onclick="letter('n')">N</button>
-            <button id="ñ" class="enable" type="button" onclick="letter('ñ')">Ñ</button>
-            <button id="o" class="enable" type="button" onclick="letter('o')">O</button>
-            <button id="p" class="enable" type="button" onclick="letter('p')">P</button>
-            <button id="q" class="enable" type="button" onclick="letter('q')">Q</button>
-            <button id="r" class="enable" type="button" onclick="letter('r')">R</button>
-            <button id="s" class="enable" type="button" onclick="letter('s')">S</button>
-            <button id="t" class="enable" type="button" onclick="letter('t')">T</button>
-            <button id="u" class="enable" type="button" onclick="letter('u')">U</button>
-            <button id="v" class="enable" type="button" onclick="letter('v')">V</button>
-            <button id="w" class="enable" type="button" onclick="letter('w')">W</button>
-            <button id="x" class="enable" type="button" onclick="letter('x')">X</button>
-            <button id="y" class="enable" type="button" onclick="letter('y')">Y</button>
-            <button id="z" class="enable" type="button" onclick="letter('z')">Z</button>
+    <section class="main-containerr">
+        <div class="letters-box">
+            <div class="letters">
+                <button id="a" class="enable" type="button" onclick="letter('a')">A</button>
+                <button id="b" class="enable" type="button" onclick="letter('b')">B</button>
+                <button id="c" class="enable" type="button" onclick="letter('c')">C</button>
+                <button id="d" class="enable" type="button" onclick="letter('d')">D</button>
+                <button id="e" class="enable" type="button" onclick="letter('e')">E</button>
+                <button id="f" class="enable" type="button" onclick="letter('f')">F</button>
+                <button id="g" class="enable" type="button" onclick="letter('g')">G</button>
+                <button id="h" class="enable" type="button" onclick="letter('h')">H</button>
+                <button id="i" class="enable" type="button" onclick="letter('i')">I</button>
+                <button id="j" class="enable" type="button" onclick="letter('j')">J</button>
+                <button id="k" class="enable" type="button" onclick="letter('k')">K</button>
+                <button id="l" class="enable" type="button" onclick="letter('l')">L</button>
+                <button id="m" class="enable" type="button" onclick="letter('m')">M</button>
+                <button id="n" class="enable" type="button" onclick="letter('n')">N</button>
+                <button id="ñ" class="enable" type="button" onclick="letter('ñ')">Ñ</button>
+                <button id="o" class="enable" type="button" onclick="letter('o')">O</button>
+                <button id="p" class="enable" type="button" onclick="letter('p')">P</button>
+                <button id="q" class="enable" type="button" onclick="letter('q')">Q</button>
+                <button id="r" class="enable" type="button" onclick="letter('r')">R</button>
+                <button id="s" class="enable" type="button" onclick="letter('s')">S</button>
+                <button id="t" class="enable" type="button" onclick="letter('t')">T</button>
+                <button id="u" class="enable" type="button" onclick="letter('u')">U</button>
+                <button id="v" class="enable" type="button" onclick="letter('v')">V</button>
+                <button id="w" class="enable" type="button" onclick="letter('w')">W</button>
+                <button id="x" class="enable" type="button" onclick="letter('x')">X</button>
+                <button id="y" class="enable" type="button" onclick="letter('y')">Y</button>
+                <button id="z" class="enable" type="button" onclick="letter('z')">Z</button>
+            </div>
+        </div>
+
+        <div class="game-brand">
+            <span>By</span>
+            <img src="./img/Gabox.svg" alt="Logo Gabox">
+        </div>
+
+    </section>
+</div>
+
+<div class="notify hidde" id="win">
+
+    <div class="topic">
+        <span>¡Has ganado!</span>
+        <img src="./img/Smile.png" alt="Carita feliz">
+    </div>
+
+    <div class="question">
+        <span>
+            ¿Volver a jugar?
+        </span>
+        <div class="question-buttons">
+            <button onclick="reload()">¡Claro que si!</button>
+            <button onclick="win_hidde()">Quizás más tarde</button>
         </div>
     </div>
 
+</div>
 
-</section>
+<div class="notify hidde" id="defeat">
 
+    <div class="topic">
+        <span>¡Has perdido!</span>
+        <img src="./img/Sad.png" alt="Carita triste">
+    </div>
+
+    <div class="question">
+        <span>
+            ¿Volver a intentarlo?
+        </span>
+        <div class="question-buttons">
+            <button onclick="reload()">¡Claro que si!</button>
+            <button onclick="defeat_hidde()">Quizás más tarde</button>
+        </div>
+    </div>
+
+</div>
 
 <script type="text/javascript" src="js/ahorcado.js">
 </script>
