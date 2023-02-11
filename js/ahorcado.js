@@ -17,7 +17,7 @@ function clear(){
 }
 
 function word(){
-    const words = ["google", "amazon", "facebook", "apple", "microsoft", "ibm", "oracle", "intel", "hp", "twitter", "salesforce", "vmware", "jpmorgan", "boeing", "caterpillar", "ford", "tesla", "bmw", "daimler", "volkswagen", "audi", "porsche", "renault", "peugeot", "citroën", "fiat", "alfa"]
+    const words = ["Fallout", "Titanfall", "Fortnite", "Dota", "Control", "Journey", "Overwatch", "Uncharted", "StarCraft", "Minecraft", "Doom", "Tetris", "Portal", "BioShock", "Undertale", "Halo"]
 
     clear()
 

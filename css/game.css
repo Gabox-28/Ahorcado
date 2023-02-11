@@ -284,6 +284,10 @@
         grid-template-columns: repeat(5,65px);
         grid-template-rows: repeat(6, 65px);
     }
+
+    .letter{
+        padding: 10px;
+    }
 }
 
 @media(max-width: 320px){
@@ -306,6 +310,14 @@
 
     .question-buttons{
         width: 100%;
+    }
+
+    .word-box h2 span{
+        font-size: 2.5rem;
+    }
+
+    .letter{
+        padding: 8px;
     }
 }
 
