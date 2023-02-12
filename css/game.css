@@ -330,12 +330,16 @@
     .new-word button{
         font-size: 1.3rem;
     }
+
+    .game-brand{
+        display: none;
+    }
 }
 
 @media(max-width: 412px){
     .letters{
-        grid-template-columns: repeat(6,55px);
-        grid-template-rows: repeat(5, 55px);
+        grid-template-columns: repeat(6,50px);
+        grid-template-rows: repeat(5, 50px);
     }
 }
 
@@ -360,20 +364,12 @@
     .letter{
         padding: 10px;
     }
-
-    .game-brand img{
-        width: 100px;
-    }
-
-    .game-brand span{
-        font-size: 2rem;
-    }
 }
 
 @media(max-width: 360px) {
     .letters{
-        grid-template-columns: repeat(6,52px);
-        grid-template-rows: repeat(5, 52px);
+        grid-template-columns: repeat(6,50px);
+        grid-template-rows: repeat(5, 50px);
     }
 }
 
