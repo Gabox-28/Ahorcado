@@ -45,13 +45,6 @@ header h1{
     font-size: 30px;
 }
 
-@media(min-width: 1366px){
-    body{
-        max-height: 100vh;
-    }
-}
-
-
 /* Index */
 
 main{
@@ -126,11 +119,21 @@ section{
 
 @media(max-width: 1366px){
     .brand{
-        margin-top: 20vh;
+        margin-top: 15vh;
     }
 
     .section-right img{
         width: 600px;
+    }
+}
+
+@media(min-width: 1280px){
+    .brand{
+        margin-top: 15vh;
+    }
+
+    body{
+        max-height: 100vh;
     }
 }
 
