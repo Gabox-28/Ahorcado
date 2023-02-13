@@ -45,6 +45,12 @@ header h1{
     font-size: 30px;
 }
 
+@media(min-width: 1366px){
+    body{
+        max-height: 100vh;
+    }
+}
+
 
 /* Index */
 
