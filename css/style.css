@@ -52,14 +52,6 @@ main{
     display: flex;
 }
 
-.container{
-    max-height: 100vh;
-}
-
-main{
-    max-height: 100vh;
-}
-
 section{
     width: 50vw;
 }

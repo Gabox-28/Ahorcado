@@ -203,6 +203,16 @@
     }
 }
 
+@media(min-width: 1366px){
+    .container{
+        max-height: 100vh;
+    }
+
+    main{
+        max-height: 100vh;
+    }
+}
+
 @media(max-width: 1024px){
     .container{
         display: flex;
